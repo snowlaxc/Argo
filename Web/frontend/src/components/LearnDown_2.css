@@ -1,0 +1,39 @@
+#comLearnDown2 {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+
+#comLearnDown2 > p {
+    font-size: 1.3em;
+    margin: 0;
+    margin-bottom: 1%;
+}
+
+#learn_content {
+    border: 2px solid gray;
+    width: 98%;
+    height: 88%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#q {
+    height: 75%;
+}
+
+#q_content {
+    padding: 5%;
+    padding-bottom: 2%;
+    font-size: 1.2em;
+}
+
+#q_content > div {
+    margin-top: 3%;
+}
+
+#q_choice {
+    height: 100%;
+    text-align: start;
+}
+

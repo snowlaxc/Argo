@@ -1,0 +1,45 @@
+#a {
+    background-color: #ccc;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+#learnInputDiv {
+    width: 87%;
+    height: 100%;
+}
+
+#learnInputDiv > input {
+    padding: 2%;
+    padding-left: 5%;
+    height: 30%;
+    /* border: 1px solid black; */
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    width: 92%;
+    font-size: 1em;
+    background-color: #ccc;
+}
+
+#learnbtnDiv {
+    width: 10%;
+    height: 100%;
+    text-align: end;
+}
+
+#learnbtnDiv > button {
+    padding: 8px 17px;
+    font-size: 1em;
+    background-color: #BDD98E;
+    color: black;
+    /* font-weight: bold; */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50%;
+}

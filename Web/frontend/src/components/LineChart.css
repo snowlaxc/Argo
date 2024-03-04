@@ -1,0 +1,16 @@
+.line_chart_wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.line_chart_wrapper2 {
+    margin: auto;
+    width: 100%;
+    /* height: 80%; */
+    /* display: flex; */
+}
+
+.line_chart_wrapper2 canvas{
+    /* margin: auto; */
+}

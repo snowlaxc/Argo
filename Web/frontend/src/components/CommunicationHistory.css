@@ -1,0 +1,212 @@
+.comm_history_element {
+  border: 2px solid #8d96a1;
+  margin-bottom: auto;
+  border-radius: 0.5em;
+  width: 80%;
+  min-width: 10em;
+  height: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  display: flex;
+}
+
+.comm_history_element a {
+  margin: auto;
+}
+
+.comm_history_wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.history_list {
+  height: 100%;
+  width: 30%;
+  /* margin: auto; */
+  float: right;
+}
+
+.history_contents {
+  width: 70%;
+  height: 100%;
+
+}
+
+.history_wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  /* padding-top: 3%; */
+  width: 100%;
+  margin: auto;
+}
+
+.history_communicaiton_chatbot_container {
+  border: solid 2px #676e77;
+  border-radius: 1.5em;
+  height: 100%;
+  padding: 0 1%;
+  min-width: 25em;
+}
+
+.sevenC3 {
+  color: blue;
+}
+
+.sevenC2 {
+  color: gray;
+}
+
+.sevenC1 {
+  color: red;
+}
+
+.sevenC1 {
+  display: hi;
+}
+
+.sevenC_wrapper {
+  min-width: 25em;
+  display: flex;
+  flex-direction: row;
+}
+
+.sevenC_wrapper_inner {
+  /* min-width: 25em; */
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+}
+
+.sevenC_inner {
+  /* margin: 0 1%; */
+  font-size: 0.8em;
+}
+
+.sevenC_avg {
+  font-size: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.history_chat_messages {
+  width: 98%;
+  min-width: 25em;
+  padding: 1%;
+  overflow-y: scroll;
+  height: 70%;
+}
+
+.history_title {
+  height: 10%;
+  font-size: 120%;
+  /* justify-content: center;
+  
+  align-items : center; */
+
+  display: flex;
+  overflow-y: scroll;
+  word-break:break-all;
+  padding: 1%;
+
+}
+
+.history_score {
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+}
+
+.history_title_inner {
+  margin: auto;
+}
+
+.history_chat_messages_inner {
+  padding: 3% 1%;
+}
+
+
+.communication_page_inner2 {
+  min-width: 40em;
+  min-height: 32em;
+}
+
+.history_message {
+  /* border: #ccc solid 0.05em; */
+  border-radius: 0.3em;
+  background-color: #ccc;
+  max-width: 80%;
+  min-width: 30%;
+  width: max-content;
+  padding: 1%;
+}
+
+.history_message_user {
+  /* margin-left: auto; */
+  background-color: #FAE3A9;
+}
+
+.history_message_user_0 {
+  /* margin-left: auto; */
+  background-color: #FAE3A9;
+  border: solid #ff0000 2px;
+}
+
+.history_message_user_1 {
+  /* margin-left: auto; */
+  background-color: #FAE3A9;
+  border: solid #53af5f 2px;
+}
+
+.history_message_user_2 {
+  /* margin-left: auto; */
+  background-color: #FAE3A9;
+  border: solid #ccc 2px;
+}
+
+.history_message_chatbot {
+  /* margin-right: auto; */
+  background-color: #D3E3F7;
+}
+
+.history_message_system {
+  background-color: #fff;
+  width: max-content;
+  min-width: 100%;
+}
+
+
+/* Webkit 브라우저(Chrome, Safari)에 대한 스크롤바 숨기기 */
+.history_title::-webkit-scrollbar {
+  width: 0; /* 스크롤바 너비 설정 */
+  /* height: 0; */
+}
+
+.history_title::-webkit-scrollbar-thumb {
+  background-color: darkgrey; /* 스크롤바 색상 설정 */
+  border-radius: 6px; /* 스크롤바 모양 설정 */
+}
+
+.history_title::-webkit-scrollbar-track {
+  background-color: lightgrey; /* 스크롤바 트랙 색상 설정 */
+}
+
+
+
+/* Webkit 브라우저(Chrome, Safari)에 대한 스크롤바 숨기기 */
+.history_chat_messages::-webkit-scrollbar {
+  width: 1em; /* 스크롤바 너비 설정 */
+  /* height: 0; */
+}
+
+.history_chat_messages::-webkit-scrollbar-thumb {
+  background-color: rgba(189, 189, 189, 0.774); /* 스크롤바 색상 설정 */
+  border-radius: 0.3em; /* 스크롤바 모양 설정 */
+}
+
+.history_chat_messages::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0); /* 스크롤바 트랙 색상 설정 */
+
+}

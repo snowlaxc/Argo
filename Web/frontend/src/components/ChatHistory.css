@@ -1,0 +1,117 @@
+.session-list {
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between;
+  align-items: center; 
+  height: calc(100% - (5rem));
+  box-sizing: border-box;
+  width: 20%;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  overflow-y: auto;
+  left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border: none;
+}
+/* .session-items-container{
+  
+} */
+.session-item {
+  display: flex;
+  justify-content: space-between;
+  width: 96%;
+  align-self: center;
+  margin-left: 2%;
+  height: 10%;
+  margin-top: 2%;
+}
+
+.session-button {
+  background-color: #D3E3F7;
+  width: 100%;
+  border-radius: 5px;
+  color: #315279;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-align: left;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  align-self: center;
+  height: 100%;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.session-button:hover {
+  background-color: #c4dcfa;
+}
+
+.delete-session {
+  background-color: #D3E3F7;
+  width: 15%; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  align-self: center;
+  height: 100%;
+}
+
+
+.delete-session:hover {
+  background-color: #c4dcfa;
+}
+
+
+
+.delete-icon {
+  width: auto;
+  height: 65%;
+}
+
+.create-new-chat-button {
+  margin-top: auto;
+  position: absolute;
+  background-color: #D3E3F7;
+  color: #315279;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; 
+  padding: 10px;
+  height: calc(8% + 10px);
+  bottom: 0;
+}
+
+.create-new-chat-button:hover{
+  background-color: #c4dcfa;
+}
+
+.plus-icon {
+  width: auto;
+  height: 100%;
+}
+
+.session-items-container {
+  overflow-y: auto;
+  height: 92%;
+  width: 100%;
+  right: 0;
+}
+
+
+.session-items-container::-webkit-scrollbar {
+  display: none;
+}

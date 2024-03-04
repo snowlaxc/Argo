@@ -1,0 +1,26 @@
+.Pagination2_wrapper {
+    display: flex;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Pagination2_wrapper2 {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.Pagination2_button {
+    width: 1em;
+    margin: auto;
+}
+
+.Pagination2_button_num {
+    margin: auto;
+}
+
+.Pagination2_wrapper a:hover {
+    text-decoration: none; /* 선택적으로 밑줄 제거 */
+    cursor: pointer;
+  }

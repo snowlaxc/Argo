@@ -1,0 +1,25 @@
+/* Add your own styles as needed */
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  margin-top: auto; /* Push the footer to the bottom */
+  font-family: 'WantedSansVariable', sans-serif !important;
+  font-size: 12pt;
+  font-weight: bold;
+  letter-spacing: 0.025em;
+  line-height: 1.65;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

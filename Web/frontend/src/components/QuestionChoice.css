@@ -1,0 +1,35 @@
+#qchoices {
+    height: 100%;
+    padding: 0 7%;
+    overflow-y: scroll;
+}
+
+/* Webkit 브라우저(Chrome, Safari)에 대한 스크롤바 숨기기 */
+#qchoices::-webkit-scrollbar {
+  width: 0; /* 스크롤바 너비 설정 */
+  /* height: 0; */
+}
+ 
+#qchoices::-webkit-scrollbar-thumb {
+  background-color: darkgrey; /* 스크롤바 색상 설정 */
+  border-radius: 6px; /* 스크롤바 모양 설정 */
+}
+ 
+#qchoices::-webkit-scrollbar-track {
+  background-color: lightgrey; /* 스크롤바 트랙 색상 설정 */
+}
+
+.qchoice {
+    font-size: 1.2em;
+    margin-bottom: 1%;
+    padding: 1%;
+}
+
+.qchoice > button {
+    font-size: 1em;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+}
