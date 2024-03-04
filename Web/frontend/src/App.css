@@ -1,0 +1,71 @@
+html, body, #root, .App {
+  height: 100%;
+  width: 100%;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  background: linear-gradient(rgba(157, 194, 237, 0.8), rgba(206, 224, 246, 0.5)), url('../public/background.jpg');
+  background-size: cover; /* 배경 이미지를 화면에 꽉 차게 설정 */
+  background-repeat: no-repeat; /* 배경 이미지 반복 제거 */
+  background-attachment: fixed; /* 배경 이미지를 스크롤과 함께 고정시킴 */
+  height: 100vh; /* body의 높이를 화면 높이와 같게 설정 */
+  margin: 0; /* body의 기본 마진 제거 */
+  padding: 0;
+}
+
+@import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans/fonts/webfonts/variable/split/WantedSansVariable.min.css");
+
+body {
+  font-family: 'WantedSansVariable', sans-serif;
+}
+
+section {
+  height: calc(100% - 5em);
+  width: 100%;
+}
+
+.App {
+  text-align: center;
+  /* background-color: #9DC2ED; */
+  height: 100%;
+  width: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
