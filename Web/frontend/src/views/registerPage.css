@@ -1,0 +1,165 @@
+/* footer 없어도 되지않나? */
+/* 위에 빈공간 왜있지 */
+
+.regloginSection {
+    background: linear-gradient(rgba(157, 194, 237, 0.8), rgba(206, 224, 246, 0.5)), url('../../public/background.jpg');
+    background-size: cover; /* 배경 이미지를 화면에 꽉 차게 설정 */
+    background-repeat: no-repeat; /* 배경 이미지 반복 제거 */
+    background-attachment: fixed; /* 배경 이미지를 스크롤과 함께 고정시킴 */
+    min-height: 100%; /* body의 높이를 화면 높이와 같게 설정 */
+    margin: auto;
+    padding: 0;
+    display: flex;
+}
+
+.registForm {
+    max-width: 400px;
+    margin: 7% auto;
+    padding: 3%;
+    padding-bottom: 2%;
+    background-color: rgba(255, 255, 255, 0.8); /* 배경색을 반투명하게 설정 */
+    /* margin-bottom: 10%; */
+    border-radius: 10px; /* 모서리 둥글게 설정 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 효과 추가 */
+}
+
+.registForm ::placeholder {
+    color: #999; /* 플레이스홀더 색상 변경 */
+}
+  
+.regTitle {
+    font-size: 2em;
+    font-weight: bold;
+    color: #4B7FBC;
+    margin-bottom: 7%;
+}
+
+#regFormDiv {
+    /* padding-top: 1.5%; */
+    width: 50%;
+    height: 80%;
+    margin: auto;
+    min-height: 34em;
+}
+
+.regContent {
+    margin-bottom: 3%;
+}
+
+.regContent > input {
+    width: 80%;
+    padding: 3%;
+    box-sizing: border-box;
+    border: 1px solid #ddd; /* 테두리 추가 */
+    border-radius: 5px; /* 모서리를 둥글게 */
+}
+
+.regContent > button {
+    width: 20%;
+    padding: 2.5%;
+    background-color: #4B7FBC; /* 버튼 배경색 */
+    color: white; /* 버튼 텍스트 색상 */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.regContent > button:hover {
+    background-color: #4378b5; /* 호버 시 배경색 변경 */
+}
+
+.regContent > p {
+    margin: 1.5% 0;
+    font-size: 12px;
+}
+
+.regContent > select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#regBtn {
+    width: 75%;
+    padding: 3%;
+    background-color: #4B7FBC;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 3%;
+    margin-top: 4%;
+}
+
+#regBtn:hover {
+    background-color: #4378b5;
+}
+
+#regBtn:disabled {
+    background-color: rgb(144, 143, 143);
+}
+
+#id, #email {
+    width: 57%;
+    margin-right: 3%;
+}
+
+#dept {
+    width: 80%;
+    padding: 2%;
+    font-size: 0.9em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#dept option {
+    font-size: 14px;
+}
+
+#terms {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 80%;
+    padding-bottom: 3%;
+}
+
+#terms_label {
+    cursor: pointer;
+    font-size: 0.9em;
+}
+  
+#terms_label > input[type="checkbox"] {
+    cursor: pointer;
+}
+
+#terms > button {
+    /* width: 20%; */
+    margin-left: 3%;
+    background-color: #4B7FBC; 
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#emailCheckDiv > input {
+    width: 40%;
+    padding: 2%;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+}
+
+#emailCheckDiv > button {
+    padding: 1%;
+    margin-left: 3%;
+    background-color: #4B7FBC; 
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,46 @@
+body {
+  font-family: 'WantedSansVariable', sans-serif !important;
+  font-size: 12pt;
+  font-weight: bold;
+  letter-spacing: 0.025em;
+  line-height: 1.65;
+}
+
+.link {
+  text-decoration: none;
+}
+
+table {
+  width: 100%; /* Set the table to occupy the full available width */
+  table-layout: fixed; /* Fix the table layout to distribute column width evenly */
+  border-collapse: collapse; /* Optional: Collapse the table borders for better styling */
+}
+
+/* Apply a specific width to all th and td elements within the table */
+table th, table td {
+  width: 14.28%; /* 100% / 7 columns = 14.28% for each column */
+  text-align: center; /* Center-align text within table cells */
+  padding: 8px; /* Optional: Add padding to cells for better spacing */
+}
+
+.name th {
+  text-align: center;
+  font-size: 12pt;
+}
+
+.pic img {
+  width: 8vw; /* 원하는 너비로 조절하세요 */
+  height: auto; /* 너비에 따라 자동으로 높이를 조절합니다 */
+  border-radius: 50%; /* 이미지를 동그랗게 만듭니다 */
+  padding: 1vw;
+}
+
+.email td {
+  text-align: center;
+  font-size: 9pt;
+}
+
+.github td {
+  text-align: center;
+  font-size: 9pt;
+}

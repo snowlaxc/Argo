@@ -1,0 +1,183 @@
+.scoreboard {
+  /* 점수판 스타일을 설정합니다. */
+}
+
+.learning-page {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.learning-page .user-name {
+  margin: 0;
+}
+
+.score-container {
+  min-width: 26em;
+  width: 100%;
+  margin: auto;
+}
+
+.donut-chart {
+  width: 40%;
+  height: 60%
+}
+
+.learning_page_recommendation_ele {
+  margin: auto;
+}
+
+.learning_page_recommendation{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  max-width: 30em;
+  margin: auto;
+  padding: 0 0 5% 0;
+}
+
+.learning_page_right_ele {
+  height: 60%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.learning_page_right {
+  /* height: 100%; */
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.donut_pentagon_chart{
+  margin: auto;
+}
+
+.score-element {
+  height: 5em;
+}
+
+.score-element .score-bars{
+  width: calc(100% - 8em);
+  margin: auto 1em;
+  height: 3.5em;
+  padding-top: 0.5em;
+}
+
+.score-element .score-bars-hover0 {
+  width: calc(100% - 8em);
+  margin: auto 1em;
+  height: 3.5em;
+  padding-top: 0.5em;
+}
+
+.score-element .score-bars-hover0 {
+  width: calc(100% - 8em);
+  margin: auto 1em;
+  height: 3.5em;
+  padding-top: 0.5em;
+}
+
+.score-element .score-bars-hover1 {
+  width: calc(100% - 8em);
+  margin: auto 1em;
+  height: 3.5em;
+  padding-top: 0.5em;
+}
+
+.score-element .score-bars-hover2 {
+  width: calc(100% - 8em);
+  margin: auto 1em;
+  height: 3.5em;
+  padding-top: 0.5em;
+}
+
+.score-element .score-bars-hover3 {
+  width: calc(100% - 8em);
+  margin: auto 1em;
+  height: 3.5em;
+  padding-top: 0.5em;
+}
+
+.score-element .score-bars-hover4 {
+  width: calc(100% - 8em);
+  margin: auto 1em;
+  height: 3.5em;
+  padding-top: 0.5em;
+}
+
+
+.score-element .score-bars-hover0 .score-bar {
+  border: solid #5b6b716e;
+}
+
+.score-element .score-bars-hover1 .score-bar {
+  border: solid #5b6b716e;
+}
+
+.score-element .score-bars-hover2 .score-bar {
+  border: solid #5b6b716e;
+}
+
+.score-element .score-bars-hover3 .score-bar {
+  border: solid #5b6b716e;
+}
+
+.score-element .score-bars-hover4 .score-bar {
+  border: solid #5b6b716e;
+}
+
+
+.score-element:hover .score-bar-score {
+  display:block;
+  color: gray;
+}
+
+.score-element .score-bar-score {
+  display:none;
+}
+
+.iconStructure {
+  width: 14%;
+  height: 14%;  
+  z-index: 0;
+  transition: all 0.3s ease;
+}
+
+/* .learning-page .iconStructure:hover {
+  width: 15%;
+  height: 15%;
+} */
+
+.iconStructure0-hovered {
+  width: 15%;
+  height: 15%;
+}
+
+.iconStructure1-hovered {
+  width: 15%;
+  height: 15%;
+}
+
+.iconStructure2-hovered {
+  width: 15%;
+  height: 15%;
+}
+
+.iconStructure3-hovered {
+  width: 15%;
+  height: 15%;
+}
+
+.iconStructure4-hovered {
+  width: 15%;
+  height: 15%;
+}
+
+.iconStructure5-hovered {
+  width: 15%;
+  height: 15%;
+}

@@ -1,0 +1,11 @@
+.chat-chat-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(100% - (5rem));
+  overflow-y: hidden;
+  position: relative;
+  background-size: cover; /* 배경 이미지를 화면에 꽉 차게 설정 */
+  background-repeat: no-repeat; /* 배경 이미지 반복 제거 */
+  background-attachment: fixed;
+}

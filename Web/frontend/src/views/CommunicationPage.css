@@ -1,0 +1,77 @@
+.communication_page {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.communication_page_button {
+    width: 6em;
+    height: 2.5em;
+    border-radius: 0.7em;
+    border: none;
+    min-width: 5em;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 1.1em;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); */
+    background-color: rgb(232, 232, 232);
+}
+
+.communication_page_button:hover {
+    cursor: pointer;
+    box-shadow: none;
+    background-color: rgb(216, 216, 216);
+}
+
+.communication_page_top {
+    /* width: 100%; */
+    height: 10%;
+
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2.5%;
+    padding-right: 3%;
+}
+
+.communication_page_scorebar{
+    width: 80%;
+    min-width: 25em;
+    margin: auto;
+}
+
+.communication_page_contents {
+    width: 100%;
+    height: 75%;
+    margin: auto;
+    display: flex;
+    min-height: 28em;
+}
+
+.communication_page_inner {
+    width: 76%;
+    height: 100%;
+    display: flex;
+    /* margin-right: 5em; */
+}
+
+.communication_page_icon {
+    height: 100%;
+    aspect-ratio: 1;
+    display: flex;
+}
+
+.communication_page_inner2 {
+    width: 90%;
+    height: 80%;
+    min-height: 32em;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+
+.communication_page_icon .inner {
+    width: 80%;
+    aspect-ratio: 1;
+    margin: auto;
+}

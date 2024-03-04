@@ -1,0 +1,10 @@
+.dashboard_div {
+    background-color: white;
+    /* height: 100%; */
+    height: auto;
+    min-height: 100%;
+}
+
+.noticeboard_div {
+    height: calc(100%-5rem);
+}

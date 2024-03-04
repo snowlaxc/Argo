@@ -1,0 +1,90 @@
+/* 배경 전체에 대한 스타일 */
+.write-post-page-background {
+    background-color: white;
+    height: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+  }
+
+  .write-post-input-group label {
+    text-align: left;
+    margin-top: 3%;
+  }
+  
+  /* 컨테이너 전체에 대한 스타일 */
+  .write-post-container {
+    margin: auto;
+    background-color: #fff;
+    /* border: 1px solid black; */
+    margin-top: 2%;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  /* 폼 컨테이너에 대한 스타일 */
+  .write-post-form-container {
+    text-align: center;
+  }
+  
+  /* 제목 입력 부분에 대한 스타일 */
+  .write-post-title-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+  }
+  
+  /* 파일 입력 부분에 대한 스타일 */
+  .write-post-file-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+  }
+
+  /* 파일 입력 버튼에 대한 스타일 */
+.write-post-file-input::file-selector-button {
+    background-color: #a2a2a2;
+    color: #fff;
+    padding: 4px 9px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 2%;
+  }
+  
+  /* 내용 입력 부분에 대한 스타일 */
+  .write-post-content-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+    resize: none;
+  }
+  
+  /* 공지사항 체크박스에 대한 스타일 */
+  .write-post-label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  /* 작성 완료 버튼에 대한 스타일 */
+  .write-post-submit-button {
+    background-color: #4b95e3;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 7%;
+  }
+  
+  .write-post-submit-button:hover {
+    background-color: #427fc0;
+  }
