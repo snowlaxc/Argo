@@ -165,24 +165,24 @@ const Home = () => {
               <table>
                 <thead>
                 <tr className="name">
-                  <th>강재영</th>
-                  <th>구본욱</th>
-                  <th>배지현</th>
-                  <th>심원보</th>
-                  <th>이운규</th>
-                  <th>천광현</th>
-                  <th>홍승연</th>
+                  <th>강OO</th>
+                  <th>구OO</th>
+                  <th>배OO</th>
+                  <th>심OO</th>
+                  <th>이OO</th>
+                  <th>천OO</th>
+                  <th>홍OO</th>
                 </tr>
                 </thead>
                 <tbody>
                   <tr className="pic">
-                  <td><img src="img/about_us/jy.jpg" alt="강재영" /></td>
-                  <td><img src="img/about_us/bw.jpg" alt="구본욱" /></td>
-                  <td><img src="img/about_us/jh.jpg" alt="배지현" /></td>
-                  <td><img src="img/about_us/wb.jpg" alt="심원보" /></td>
-                  <td><img src="img/about_us/wg.jpg" alt="이운규" /></td>
-                  <td><img src="img/about_us/gh.jpg" alt="천광현" /></td>
-                  <td><img src="img/about_us/sy.jpg" alt="홍승연" /></td>
+                  <td><img src="img/about_us/jy.jpg" alt="강OO" /></td>
+                  <td><img src="img/about_us/bw.jpg" alt="구OO" /></td>
+                  <td><img src="img/about_us/jh.jpg" alt="배OO" /></td>
+                  <td><img src="img/about_us/wb.jpg" alt="심OO" /></td>
+                  <td><img src="img/about_us/wg.jpg" alt="이OO" /></td>
+                  <td><img src="img/about_us/gh.jpg" alt="천OO" /></td>
+                  <td><img src="img/about_us/sy.jpg" alt="홍OO" /></td>
                   </tr>
                   <tr className="role">
                     <td>AI, BE</td>
@@ -194,13 +194,13 @@ const Home = () => {
                     <td>BE, AI</td>
                   </tr>
                   <tr className="github">
-                    <td>github.com/kkkkkk0312</td>
-                    <td>github.com/bonbi0604</td>
-                    <td>github.com/BaeJihyun97</td>
-                    <td>github.com/zaGamer95</td>
-                    <td>github.com/woongyu1221</td>
-                    <td>github.com/snowlaxc</td>
-                    <td>github.com/hhssyyh</td>
+                    <td>github.com/OO</td>
+                    <td>github.com/OO</td>
+                    <td>github.com/OO</td>
+                    <td>github.com/OO</td>
+                    <td>github.com/OO</td>
+                    <td>github.com/OO</td>
+                    <td>github.com/OO</td>
                   </tr>
                 </tbody>
               </table>
